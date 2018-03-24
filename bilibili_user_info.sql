@@ -41,6 +41,9 @@ CREATE TABLE `bilibili_user_info` (
   `sign` varchar(300) DEFAULT NULL,
   `level` int(11) DEFAULT NULL,
   `exp` int(11) DEFAULT NULL,
+  `vipStatus` int(11) DEFAULT NULL,
+  `vipType` int(11) DEFAULT NULL,
+  `vipDueDate` int(15) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
