@@ -106,6 +106,9 @@ for m in range(99, 101):  # 26 ,1000
                     sign = jsData['sign']
                     level = jsData['level_info']['current_level']
                     exp = jsData['level_info']['current_exp']
+                    vipStatus = jsData['vip']['vipStatus']
+                    vipType = jsData['vip']['vipType']
+                    vipDueDate = jsData['vip']['vipDueDate']
                     print("Succeed: " + mid + "\t" + str(time2 - time1))
                     try:
                         res = requests.get(
